@@ -36,10 +36,10 @@ docker compose down --remove-orphans
 - Internamente usa `ProducerServices`, que cria um `IProducer<Null, string>` via `ProducerBuilder` e chama `ProduceAsync` no tópico configurado.
 
 
-| Projeto        | Descrição |
+| Host           | URL       |
 |----------------|-----------|
-| Endpoint       | http://localhost:5107/?message=TesteKafka |
-| Kafka Cluster  | http://localhost:19000 |
+| **POST**         | http://localhost:5107/?message=TesteKafka |
+| **Kafka Cluster**| http://localhost:19000 |
 
 
 #### Consumer — ConsumerWorkService
