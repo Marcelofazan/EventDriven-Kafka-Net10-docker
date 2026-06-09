@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsumerWorkService/ConsumerWorkService.csproj" />
+  <Project Path="exemploApiKafka/exemploApiKafka.csproj" />
+</Solution>
