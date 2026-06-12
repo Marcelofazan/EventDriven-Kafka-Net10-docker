@@ -1,7 +1,7 @@
 ## 🛠️ EventDriven-Kafka-docker
 Exemplo de criação de Event-Driven Architecture (EDA) utilizando Apache Kafka em C# ASP.NET Core 10   
 
-#### 📋 O que voçê vai ver nesse Projeto
+#### 📋 O que você vai encontrar neste projeto
 
 | Tecnologia | Descrição     |
 |----------------|-----------|
