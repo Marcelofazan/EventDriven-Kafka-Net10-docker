@@ -1,6 +1,7 @@
 ## 🛠️ EventDriven-Kafka-docker
 Exemplo de criação de Event-Driven Architecture (EDA) utilizando Apache Kafka em C# ASP.NET Core 10   
 
+#### 📋 O que voçê vai ver nesse Projeto
 
 | Tecnologia | Descrição     |
 |----------------|-----------|
@@ -33,9 +34,7 @@ dotnet run
 docker compose down --remove-orphans
 ```
 
-
 - Internamente usa `ProducerServices`, que cria um `IProducer<Null, string>` via `ProducerBuilder` e chama `ProduceAsync` no tópico configurado.
-
 
 | Host           | URL       |
 |----------------|-----------|
