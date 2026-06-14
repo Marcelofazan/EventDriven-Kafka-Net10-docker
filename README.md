@@ -15,7 +15,7 @@ Exemplo de criação de Event-Driven Architecture (EDA) utilizando Apache Kafka 
 | Projeto        | Descrição |
 |----------------|-----------|
 | **ConsumerWorkService**| Consome mensagens do tópico Kafka em background. |
-| **exemploKafkaAPI**  | Expõe endpoint `POST /` que envia mensagem ao Kafka. |
+| **exemploKafkaAPI**  | Expõe endpoint `GET /` que envia mensagem ao Kafka. |
 
 VSCode Terminal [1]
 ```bash
@@ -39,9 +39,8 @@ docker compose down --remove-orphans
 | Host           | URL       |
 |----------------|-----------|
 | **Kafka Cluster**| http://localhost:19000 |
-| **PostMan**      | http://localhost:5107/?message=TesteKafka |
+| **GET**    |http://localhost:5107/?message=Teste%20Kafka |
 
-OBS: Necessário **http://localhost:5107/?message=TesteKafka** pelo Postman para retorno **200 OK**
 
 #### ⚙️ Consumer — ConsumerWorkService
 
