@@ -39,8 +39,9 @@ docker compose down --remove-orphans
 | Host           | URL       |
 |----------------|-----------|
 | **Kafka Cluster**| http://localhost:19000 |
-| **POST**         | http://localhost:5107/?message=TesteKafka |
+| **PostMan**      | http://localhost:5107/?message=TesteKafka |
 
+OBS: Necessário **http://localhost:5107/?message=TesteKafka** pelo Postman para retorno **200 OK**
 
 #### ⚙️ Consumer — ConsumerWorkService
 
