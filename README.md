@@ -1,5 +1,5 @@
 ## 🔌 EventDriven-Kafka-Api10-docker
-Exemplo de Comunicação API Event-Driven Architecture por Mensageria com Apache Kafka em C# ASP.NET Core 10.   
+Exemplo de comunicação API Event-Driven Architecture por mensageria com Apache Kafka em C# ASP.NET Core 10.   
 
 #### 📋 O que você vai encontrar neste projeto
 
